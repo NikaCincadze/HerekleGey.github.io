@@ -1,0 +1,772 @@
+
+.pereimenap3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.pereimena3{
+    margin-bottom: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.pereimenap2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    margin-bottom: -7px;
+}
+
+.pereimena2{
+    margin-bottom: 220px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    
+}
+
+
+
+.pereimenap{
+    font-family: 'Ubuntu', sans-serif;
+
+font-size: 20px;
+
+    margin-left:300px ;
+    margin-bottom: 90px;
+}
+
+
+.pereimena{
+    font-family: 'Ubuntu', sans-serif;
+
+
+font-size: 30px;
+
+    margin-left:250px ;
+    margin-bottom: 20px;
+}
+
+
+.Carusel{
+    border: 2px solid #8c8c8c;
+    border-radius: 20px;
+}
+
+.row{
+    
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.profiles{
+    margin-top: -10px;
+    
+    
+    
+    
+}
+
+.profiles2{
+    margin-left: -340px;
+    margin-top: -1500px;
+    
+}
+
+.header{
+    margin-right: 3000px;
+}
+
+
+
+
+
+.profile2{
+    border-radius: 20px;
+    margin-left: 5px;
+    border: 2px solid black;
+}
+
+.profile3{
+    margin-left: 8px;
+    border-radius: 20px;
+}
+
+.div{
+    margin-left: 20px;
+}
+
+.profile{
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+
+
+
+
+
+
+.nav-link{
+     font-family: 'Major Mono Display', monospace;
+
+
+
+
+    
+
+}
+
+.display-4.my-4.py-3.text-center.d-none.d-lg-block{
+    font-family: 'Anton', sans-serif;
+}
+
+.img-fluiddd{
+    margin-left: 38px;
+    border-radius: 20px;
+}
+
+
+.img-fluidd{
+    margin-left: 150px;
+    margin-bottom: -60px;
+}
+
+body{
+    background-color:  ;
+    font-family: 'Open Sans', sans-serif;
+    color: #e8e8e8;
+    overflow-x: hidden;
+}
+#MainNavbar {
+    font-size: 1.5rem;
+    background: white ;
+}
+
+#MainNavbar .nav-link{
+    color: black;
+}
+#MainNavbar .nav-link:hover{
+    color: ;
+}
+#MainNavbar .navbar-brand{
+    color: #a03535;
+    font-size: 2rem;
+    
+}
+.h1{
+    color: #e8e8e8;
+}
+.navbar.scrolled{
+   
+    transition: background 500ms;
+}
+
+html { scroll-behavior: smooth; } 
+
+#headingImage{
+    width: 15%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 5px;
+}
+@media(max-width:1200px){
+    #headingGroup .h1{
+        font-size: 3rem;
+    }
+}
+.Icon{
+    font-size: 3rem;
+}
+#jumbo{
+    background-color: #212121;
+}
+#JumboH1{
+    background-color: palevioletred;
+}
+#jumboBTN{
+    background-color: #212121;
+    border: 2px solid #a03535;
+    color: #e8e8e8;
+}
+#jumboBTN:hover{
+    background-color: #a03535;
+}
+#header{
+    background:url("https://cdn.discordapp.com/attachments/328878676265664514/773589946383990825/unknown.png") center center / cover no-repeat;
+}
+
+#videoCont{
+    width: 75%;
+}
+.list-unstyled>li>a{
+    color: #a03535;
+}
+#Footer{
+
+    background-color: rgb(15, 15, 15);
+}
+
+
+
+
+
+
+
+.contact{
+    font-family: 'Prompt', sans-serif;
+
+
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.about{
+    font-family: 'Acme', sans-serif;
+
+    font-size: 30px;
+    
+
+}
+
+.nav-item{
+    color: grey;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+    
+   
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(155, 140, 140);
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .fakeimg1 {
+    background-color: #aaa ;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .fakeimg2 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .fakeimg3 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  .side{
+      background-color: #e3ebf1;
+      
+  }
+.main{
+    background-color: #e3ebf1;
+
+}
+h3{
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+}
+h5{
+    color: black;
+}
+.btn.btn-outline-success.my-2.my-sm-0{
+    float: right;
+}
+.card-text{
+    color: black;
+}
+.card-body{
+    border-bottom:1px solid black ;
+}
+.button {
+    padding: 8px 30px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: skyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: skyblue}
+  
+  .button:active {
+    background-color: skyblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .main{
+      
+  }
+  
+
+  * {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:left;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+/* The browser window */
+.container {
+  border: 3px solid #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Container for columns and the top "toolbar" */
+.row {
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+}
+
+.left {
+  width: 15%;
+}
+
+.right {
+  width: 10%;
+}
+
+.middle {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Three dots */
+.dot {
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Style the input field */
+input[type=text] {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  margin-top: -8px;
+  height: 25px;
+  color: #666;
+  padding: 5px;
+}
+
+/* Three bars (hamburger menu) */
+.bar {
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+}
+
+/* Page content */
+.content {
+  padding: 10px;
+  background-color: white;
+}
+#div1 {
+  font-size:43px;
+}
+#div2 {
+  font-size:48px;
+  color: black ;
+  margin-top: px;
+ 
+}
+#div3 {
+  font-size:48px;
+}
+.btn.btn-primary{
+  background-color: red;
+}
+
+.text-typing {
+  padding:5px 15px;
+  background:white;
+  font-size:12px;
+  font-family:monospace;
+  border-radius:7px;
+  color: black;
+}
+.text-typing p {
+  margin:0px;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --cell-size: 100px;
+  --mark-size: calc(var(--cell-size) * .9);
+}
+.board {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, auto)
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.cell:first-child,
+.cell:nth-child(2),
+.cell:nth-child(3) {
+  border-top: none;
+}
+
+.cell:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.cell:nth-child(3n + 3) {
+  border-right: none;
+}
+
+.cell:last-child,
+.cell:nth-child(8),
+.cell:nth-child(7) {
+  border-bottom: none;
+}
+
+.cell.x,
+.cell.circle {
+  cursor: not-allowed;
+}
+
+.cell.x::before,
+.cell.x::after,
+.cell.circle::before {
+  background-color: black;
+}
+
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after,
+.board.circle .cell:not(.x):not(.circle):hover::before {
+  background-color: lightgrey;
+}
+
+.cell.x::before,
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::before,
+.board.x .cell:not(.x):not(.circle):hover::after {
+  content: '';
+  position: absolute;
+  width: calc(var(--mark-size) * .15);
+  height: var(--mark-size);
+}
+
+.cell.x::before,
+.board.x .cell:not(.x):not(.circle):hover::before {
+  transform: rotate(45deg);
+}
+
+.cell.x::after,
+.board.x .cell:not(.x):not(.circle):hover::after {
+  transform: rotate(-45deg);
+}
+
+.cell.circle::before,
+.cell.circle::after,
+.board.circle .cell:not(.x):not(.circle):hover::before,
+.board.circle .cell:not(.x):not(.circle):hover::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+}
+
+.cell.circle::before,
+.board.circle .cell:not(.x):not(.circle):hover::before {
+  width: var(--mark-size);
+  height: var(--mark-size);
+}
+
+.cell.circle::after,
+.board.circle .cell:not(.x):not(.circle):hover::after {
+  width: calc(var(--mark-size) * .7);
+  height: calc(var(--mark-size) * .7);
+  background-color: white;
+}
+
+.winning-message {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .9);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  flex-direction: column;
+}
+
+.winning-message button {
+  font-size: 3rem;
+  background-color: white;
+  border: 1px solid black;
+  padding: .25em .5em;
+  cursor: pointer;
+}
+
+.winning-message button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.winning-message.show {
+  display: flex;
+}
+.clock {
+  width: 170px;
+  height: 170px;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+}
+
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.2rem;
+  color: black;
+}
+
+.clock .number1 { --rotation: 30deg; }
+.clock .number2 { --rotation: 60deg; }
+.clock .number3 { --rotation: 90deg; }
+.clock .number4 { --rotation: 120deg; }
+.clock .number5 { --rotation: 150deg; }
+.clock .number6 { --rotation: 180deg; }
+.clock .number7 { --rotation: 210deg; }
+.clock .number8 { --rotation: 240deg; }
+.clock .number9 { --rotation: 270deg; }
+.clock .number10 { --rotation: 300deg; }
+.clock .number11 { --rotation: 330deg; }
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  z-index: 11;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.clock .hand.second {
+  width: 3px;
+  height: 45%;
+  background-color: red;
+}
+
+.clock .hand.minute {
+  width: 7px;
+  height: 40%;
+  background-color: black;
+}
+
+.clock .hand.hour {
+  width: 10px;
+  height: 35%;
+  background-color: black;
+}
